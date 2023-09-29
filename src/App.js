@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+// import { useEffect, useState } from "react";
+import Dashboard from "./pages";
+const App = () => {
+  // const navigate = useNavigate();
+  // const location = useLocation();
+  // const [loading, setLoading] = useState(true);
+  // const user = JSON.parse(localStorage.getItem("auth_admin"));
+  // useEffect(() => {
+  //   if (!user) {
+  //     navigate("/signin");
+  //     setLoading(false);
+  //   } else if (user && location.pathname.includes("signin")) {
+  //     navigate("/");
+  //     setLoading(false);
+  //   }
+  //   setLoading(false);
+  // }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* {loading && <DefaultLoading />} */}
+      <Routes>
+        {/* auth */}
+        <Route path={"/"} element={<Dashboard />} />
+      </Routes>
+    </>
   );
-}
-
+};
 export default App;
