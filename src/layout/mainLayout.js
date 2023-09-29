@@ -3,7 +3,7 @@ import Header from "./header";
 import SideBar from "./sidebar";
 // import { useLocation } from "react-router-dom";
 const MainLayout = (props) => {
-	const [sidebar, setSideBar] = useState(true);
+	const [sidebar, setSideBar] = useState(false);
 	// const location = useLocation();
 	// console.log("location: ", location);
 	// const user = JSON.parse(localStorage.getItem("auth_admin"));
