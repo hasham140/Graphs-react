@@ -206,7 +206,7 @@ const data = [
 
 const SimpleTreemap = () => {
   return (
-    <div className="h-[50vh] mb-10 ml-10">
+    <div className="h-[50vh]  mb-10 ml-10">
       <ResponsiveContainer width="100%" height="100%">
         <Treemap width={400} height={200} data={data} dataKey="size" aspectRatio={4 / 3} stroke="#fff" fill="#8884d8" />
       </ResponsiveContainer>

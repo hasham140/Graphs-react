@@ -97,8 +97,8 @@ const SideBar = ({ sidebar, setSideBar }) => {
       id="logo-sidebar"
       className={`fixed top-0  z-40 ${
         sidebar
-          ? "left-0 w-[15%]"
-          : "-left-[16.5rem] !transition-all !delay-100"
+          ? "left-0 w-[100%]"
+          : "-left-[16.5rem] !transition-all duration-1000"
       }     h-[100vh] border-r  bg-gray-800 border-gray-700`}
       aria-label="Sidebar"
     >

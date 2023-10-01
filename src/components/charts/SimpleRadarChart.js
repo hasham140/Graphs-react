@@ -44,7 +44,29 @@ const data = [
     A: 65,
     B: 85,
     fullMark: 150,
+  }, {
+    subject: "Physics",
+    A: 85,
+    B: 90,
+    fullMark: 150,
   },
+  {
+    subject: "History",
+    A: 65,
+    B: 85,
+    fullMark: 150,
+  }, {
+    subject: "Physics",
+    A: 85,
+    B: 90,
+    fullMark: 150,
+  },
+  {
+    subject: "History",
+    A: 65,
+    B: 85,
+    fullMark: 150,
+  }, 
 ];
 const SimpleRadarChart = () => {
   return (

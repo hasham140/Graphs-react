@@ -1,8 +1,9 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-
 // import { useEffect, useState } from "react";
 import Dashboard from "./pages";
+
+// const data2 = createContext();
 const App = () => {
   // const navigate = useNavigate();
   // const location = useLocation();
@@ -18,12 +19,11 @@ const App = () => {
   //   }
   //   setLoading(false);
   // }, []);
+  // const gender = "male";
   return (
     <>
-      {/* {loading && <DefaultLoading />} */}
       <Routes>
-        {/* auth */}
-        <Route path={"/"} element={<Dashboard />} />
+          <Route path={"/"} element={<Dashboard />} />
       </Routes>
     </>
   );

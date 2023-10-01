@@ -50,7 +50,7 @@ const data = [
 
 const SpecifiedDomainRadarChart = () => {
   return (
-    <div className="h-[40vh] w-[50%]  border  shadow-xl border-gray-200 rounded-md">
+    <div className="h-[40vh] w-[50%] border  shadow-xl border-gray-200 rounded-md">
       <ResponsiveContainer width="100%" height="100%">
         <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
           <PolarGrid />
