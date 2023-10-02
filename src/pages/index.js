@@ -18,7 +18,7 @@ import SimpleBarChart from "../components/charts/SimpleBarChart";
 // import SimpleRadarChart from "../components/charts/SimpleRadarChart";
 // import SpecifiedDomainRadarChart from "../components/charts/SpecifiedDomainRadarChart";
 // import CustomContentTreemap from "../components/charts/CustomContentTreemap";
-import SimpleTreemap from "../components/charts/SimpleTreemap";
+// import SimpleTreemap from "../components/charts/SimpleTreemap";
 import ScatterChartWithCells from "../components/charts/ScatterChartWithCells";
 
 const Dashboard = () => {
@@ -29,7 +29,7 @@ const Dashboard = () => {
         <CustomContentTreemap />
         </div> */}
         <div className="my-10">
-        <SimpleTreemap />
+        {/* <SimpleTreemap /> */}
         </div>
         <div className="flex  justify-between">
         <ScatterChartWithCells />
