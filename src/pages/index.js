@@ -20,16 +20,18 @@ import SimpleBarChart from "../components/charts/SimpleBarChart";
 // import CustomContentTreemap from "../components/charts/CustomContentTreemap";
 // import SimpleTreemap from "../components/charts/SimpleTreemap";
 import ScatterChartWithCells from "../components/charts/ScatterChartWithCells";
+import HeatMap from "../components/charts/HeatMap";
 
 const Dashboard = () => {
   return (
-    <div className="py-10 pr-8 borde m-5 rounded-md ">
+    <div className=" pr-8  mx-5 rounded-md ">
       <div className=" bg-transparent">
         {/* <div>
         <CustomContentTreemap />
         </div> */}
-        <div className="my-10">
+        <div className="-10">
         {/* <SimpleTreemap /> */}
+        <HeatMap />
         </div>
         <div className="flex  justify-between">
         <ScatterChartWithCells />
